@@ -1,0 +1,14 @@
+@use 'reset';
+@use 'vars';
+
+  // or you can import your own font
+  @font-face {
+    font-family: 'Ubuntu';
+    src: url('../assets/fonts/Ubuntu-Regular.ttf');
+  }
+
+  body {
+    font-family: 'Ubuntu', sans-serif;
+    background: vars.$main-bg;
+    color: vars.$main-color;
+  }
